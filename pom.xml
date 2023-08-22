@@ -21,6 +21,19 @@
             <url>https://maven.pkg.github.com/shail/text-utils</url>
         </repository>
     </distributionManagement>
+    <servers>
+        <server>
+            <id>github</id>
+            <configuration>
+                <httpHeaders>
+                    <property>
+                        <name>Authorization</name>
+                        <value>Bearer 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</value>
+                    </property>
+                </httpHeaders>
+            </configuration>
+        </server>
+    </servers>
     <build>
         <resources>
             <resource>
